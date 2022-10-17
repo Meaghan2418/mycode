@@ -3,10 +3,11 @@
 #Challenge One SHEBANG, INPUT, PRINT, CONCATENATE, VARIABLES
 
 def challenge():
-    name = user_input("Whoooo aaarrreee yyyyooouuu?")
-    dotwk = user_input("Where am I... wait don't answer that! What day of the week is this?")
-print("Well that didn't go as planned! Greetings," + name, "!")
-print("Happy" + dotwk, "!")
+    name = input("Hello sweetie, I'm the Doctor and who might you be? ")
+
+    dotwk = input("Ok, well good, good! What day of the week is this? ")
+
+    print(f"Well, {name} we've got to run! No time to chitchat! Just another {dotwk} in Gallifrey! Now, Run!")
 
 challenge()
 
